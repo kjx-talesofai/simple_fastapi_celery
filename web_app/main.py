@@ -14,7 +14,7 @@ celery_app = Celery(
 
 @app.get("/")
 def root():
-    return "hello talesofai"
+    return "hello world"
 
 @app.post("/send_task")
 async def send_task(x: int, y: int):
